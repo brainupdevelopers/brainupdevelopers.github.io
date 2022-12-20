@@ -22,7 +22,7 @@ nav{
     color: #f5f5f5;
 }
 .ImagemTela01{
-    background: url("../Imagens/FUNDO_1.png");
+    background: url("./imagens/FUNDO_1.png");
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -47,7 +47,7 @@ nav{
     border-radius: 11px;
 }
 .ImagemTela02{
-    background: url("../Imagens/FUNDO_2.png");
+    background: url("./imagens/FUNDO_2.png");
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -106,7 +106,7 @@ nav{
     color: #08ee5d;
 }
 .ImagemTela03{
-    background: url("../Imagens/FUNDO_3.png");
+    background: url("./imagens/FUNDO_3.png");
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -161,7 +161,7 @@ nav{
     text-align: center;
 } 
 .ImagemTela04{
-    background: url("../Imagens/FUNDO_4.png");
+    background: url("./imagens/FUNDO_4.png");
     background-repeat: no-repeat;
     background-size: cover;
 }
