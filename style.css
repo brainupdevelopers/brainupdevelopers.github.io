@@ -10,13 +10,24 @@ nav{
 }
 .DestaqueBottom{
     color: #160e73 ;
+
 }
-.CorDoBottom{
-    background: #52eb8b;
+#CorDoBottom{
+    background: #08ee5d;
     border-radius: 11px;
 }
+#CorDoBottom:hover{
+    background: #6809fa;
+}
+.CorDoBottom{
+    background: #08ee5d;
+    border-radius: 11px;
+}
+.CorDoBottom:hover{
+    background: #6809fa;
+}
 .DestaqueBottom:hover{
-    color: #08ee5d;
+    color: #f5f5f5;
 }
 .CorLinkNavbar{
     color: #f5f5f5;
@@ -38,13 +49,17 @@ nav{
 .DestaqueH1Tela01{
     font-weight: 300;
 }
-.BotãoTela01{
+#BotãoTela01{
     width: 100%;
     padding: 10px;
     font-size: 25px;
     font-weight: 600;
     background: #52eb8b;
     border-radius: 11px;
+}
+#BotãoTela01:hover{
+    background: #6809fa;
+    
 }
 .ImagemTela02{
     background: url("./imagens/FUNDO_2.png");
@@ -227,11 +242,19 @@ nav{
 .ÍconeWhatsApp{
     width: 50px;
 }
-.CorButtomTela05{
+#CorButtomTela05{
     background: #160e73;
+}
+#CorButtomTela05:hover{
+    background: #52eb8b;
 }
 .CorTela06{
     background: linear-gradient(100deg,#160e73,#af309b);
+}
+.ImagemTela03{
+    background: url("./imagens/FUNDO_3.png");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .LogoFooter{
     width: 100%;
@@ -669,9 +692,6 @@ nav{
     .PadingH1Tela02{
         padding: 0;
         margin-bottom: 35px;
-    }
-    .Centralizar{
-        width: 30%;
     }
     
     .DestaqueP3Tela04{
