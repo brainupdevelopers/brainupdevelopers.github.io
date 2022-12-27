@@ -15,9 +15,15 @@ nav{
 #CorDoBottom{
     background: #08ee5d;
     border-radius: 11px;
+    border-color: #3498db;
+    color: #fff;
+    box-shadow: 0 0 40px 40px #08ee5d inset, 0 0 0 0 #3498db;
+    -webkit-transition: all 150ms ease-in-out;
+    transition: all 150ms ease-in-out;
 }
 #CorDoBottom:hover{
     background: #6809fa;
+    box-shadow: 0 0 10px 0 #3498db inset, 0 0 10px 4px #3498db;
 }
 .CorDoBottom{
     background: #08ee5d;
@@ -47,7 +53,11 @@ nav{
     width: 100%;
 }
 .DestaqueH1Tela01{
-    font-weight: 300;
+    font-weight: 500;
+    font-size: 50px;
+}
+.ParágrafoTela01{
+    font-size: 20px;
 }
 #BotãoTela01{
     width: 100%;
@@ -56,11 +66,20 @@ nav{
     font-weight: 600;
     background: #52eb8b;
     border-radius: 11px;
+
+    border-color: #3498db;
+    color: #fff;
+    box-shadow: 0 0 40px 40px #08ee5d inset, 0 0 0 0 #3498db;
+    -webkit-transition: all 150ms ease-in-out;
+    transition: all 150ms ease-in-out;
 }
 #BotãoTela01:hover{
     background: #6809fa;
     
+    box-shadow: 0 0 10px 0 #3498db inset, 0 0 10px 4px #3498db;
 }
+
+
 .ImagemTela02{
     background: url("./imagens/FUNDO_2.png");
     background-repeat: no-repeat;
@@ -104,6 +123,7 @@ nav{
 }
 .ParágrafoChecklist{
     margin: auto;
+    font-size: 20px;
 }
 .FonteH1Tela02{
     font-weight: 600;
@@ -134,6 +154,7 @@ nav{
 .H1Tela03{
     text-align: center;
     font-weight: 700;
+    font-size: 50px;
 }
 .CAIXA1{
     margin: auto;
@@ -158,6 +179,22 @@ nav{
     width: 16rem; 
     height: 220px;
     margin: auto;
+
+    box-shadow: 0 0 40px 40px #3498db inset, 0 0 0 0 #3498db;
+    -webkit-transition: all 150ms ease-in-out;
+    transition: all 150ms ease-in-out; 
+}
+.CardTela02:hover{
+    background: #6809fa;
+    border: 1px solid #08ee5d;
+    border-radius: 15px;
+    width: 16rem; 
+    height: 220px;
+    margin: auto;
+    font-weight: 700;
+
+    box-shadow: 0 0 10px 0 #3498db inset, 0 0 10px 4px #3498db;
+
 }
 .BodyCardTela02{
     text-align: center;
@@ -188,6 +225,7 @@ nav{
 }
 .DestaqueH1Tela04{
     font-weight: 700;
+    font-size: 50px;
 }
 .DestaquePTela04{
     font-weight: 700;
@@ -225,6 +263,7 @@ nav{
 }
 .PosicaoPTela4{
     color: #160e73;
+    font-size: 20px;
 }
 .posicionamentobotaotela4{
     margin-top: 80px;
@@ -243,10 +282,21 @@ nav{
     width: 50px;
 }
 #CorButtomTela05{
-    background: #160e73;
+    background: #52eb8b;
+    color: #160e73;
+    font-weight: 500;
+
+    box-shadow: 0 0 40px 40px #52eb8b inset, 0 0 0 0 #3498db;
+  -webkit-transition: all 150ms ease-in-out;
+  transition: all 150ms ease-in-out;
 }
 #CorButtomTela05:hover{
-    background: #52eb8b;
+    background: #160e73;
+    font-weight: 700;
+    color: #f5f5f5;
+
+    box-shadow: 0 0 10px 0 #3498db inset, 0 0 10px 4px #3498db;
+
 }
 .CorTela06{
     background: linear-gradient(100deg,#160e73,#af309b);
@@ -278,9 +328,44 @@ nav{
     font-size: 40px;
 }
 @media (max-width: 576px) {
+    .CardTela02{
+        background: #0a0a25 !important;
+        border: 1px solid #08ee5d  !important;
+        border-radius: 15px  !important;
+        width: 16rem  !important; 
+        height: 220px  !important;
+        margin: auto  !important;
+        box-shadow: 0 0 0 0   !important;
+    }
+    .CardTela02:hover{
+        background: #6809fa  !important;
+        border: 1px solid #08ee5d  !important;
+        border-radius: 15px  !important;
+        width: 16rem  !important; 
+        height: 220px  !important;
+        margin: auto  !important;
+        font-weight: 700  !important;
+        box-shadow: 0;
+}
+    .DestaqueH1Tela01{
+        font-weight: 500;
+        font-size: 30px;
+    }
+    .ParágrafoTela01{
+        font-size: 15px;
+    }
+    .H1Tela03{
+        text-align: center;
+        font-weight: 700;
+        font-size: 30px;
+    }
     .Posicionamento{
         padding: 35px;
         margin: auto;
+    }
+    .PosicaoPTela4{
+        color: #160e73;
+        font-size: 15px;
     }
     .PosicionamentoTela2{
         padding: 0;
@@ -315,6 +400,7 @@ nav{
     }
     .FonteH1Tela02{
         font-weight: 600;
+        font-size: 30px;
     }
     .AjustesButtomTela20{
         width: 100%;
@@ -334,6 +420,7 @@ nav{
     }
     .DestaqueH1Tela02{
         text-align: center;
+        font-size: 30px;
     }
      .íconeTela02{
         width: 50px;
@@ -355,7 +442,11 @@ nav{
         font-size: 30px;
     }
     .DestaqueP2Tela04{
-        font-size: 20px;
+        font-size: 15px;
+    }
+    .DestaqueH1Tela04{
+        font-weight: 700;
+        font-size: 30px;
     }
     .DestaquePTela04{
         font-size: 30px;
@@ -618,7 +709,7 @@ nav{
         padding: 50px;
     }
     .PosicionamentoTela2{
-        padding: 10px;
+        padding: 50px;
         margin: 0px;
     }
     .PosicionamentoDosCardsTela02{
@@ -643,10 +734,11 @@ nav{
     }
     .ParágrafoChecklist{
         margin: auto;
-        font-size: 15px;
+        font-size: 20px;
     }
     .FonteH1Tela02{
         font-weight: 600;
+        font-size: 50px;
     }
     .AjustesButtomTela20{
         width: 500px;
@@ -682,9 +774,10 @@ nav{
     }
     .DestaqueH1Tela02{
         text-align: center;
+        font-size: 50px;
     }
      .íconeTela02{
-        width: 50px;
+        width: 100px;
     }
     .PTela02{
         text-align: center; 
